@@ -6,8 +6,8 @@ Compilation is pretty easy, just follow those steps:
 cd cpp-dev-server
 mkdir build
 cd build
-cmake ..
-make -j4
+cmake -GNinja ..
+ninja -j 16
 ```
 Fantastic! C++ Dev Server was compiled.
 ## Links
